@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
+}
+body{
+  background-color: rgb(27, 25, 25);
+  display: grid;
+  place-content: center;
+  text-align: center;
+  height: 100vh;
+}
+.card{
+  color: azure;
+  border-radius: .5rem; 
+  height: 300px;
+  width: 250px;
+  border: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+main{
+  /* border-radius: .5rem;
+  background: linear-gradient(135deg, hsla(186, 100%, 69%, 1) 9%, hsla(234, 92%, 76%, 1) 100%);
+
+  background: -moz-linear-gradient(135deg, hsla(186, 100%, 69%, 1) 9%, hsla(234, 92%, 76%, 1) 100%);
+
+  background: -webkit-linear-gradient(135deg, hsla(186, 100%, 69%, 1) 9%, hsla(234, 92%, 76%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#60EFFF", endColorstr="#8995FA", GradientType=1 ); */
+  background: hsla(273, 31%, 33%, 1);
+
+background: linear-gradient(135deg, hsla(273, 31%, 33%, 1) 0%, hsla(16, 11%, 20%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(273, 31%, 33%, 1) 0%, hsla(16, 11%, 20%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(273, 31%, 33%, 1) 0%, hsla(16, 11%, 20%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#573A6E", endColorstr="#38302D", GradientType=1 );
+width: 100%; /* Take up full width of the .card container */
+height: 100%; /* Take up full height of the .card container */
+box-sizing: border-box;
+border-radius: .5rem;
+}
+.last{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.last .left{
+  display: flex;
+}
+.last .right{
+  display: flex;
+  align-self: right;
+}
+
+
+
+@media(min-height:400px)and (min-width:250px){
+  .card{
+    height: 400px;
+    width: 250px;
+  }
+  main{
+    padding: 10px;
+    padding-top: 20px;
+
+  }
+  input{
+    height:30px;
+    width: 80%;
+    border-radius: 3rem;
+    text-align:left;
+    padding-left: 15px;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    margin: none;
+  }
+  button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    margin-left: 2px;
+  }
+  .climate{
+    margin-top: 30px;
+  }
+  .climate img{
+    height: 80px;
+  }
+  .temp{
+    margin-top: 10px;
+    font-size: 3rem;
+    font-family: "Varela Round", sans-serif;;
+  }
+  .place{
+    margin-top: 0px;
+    font-size: 1.5rem;
+  }
+  .last img {
+    height: 30px;
+    margin-right:3px;
+  }
+  .last{
+    font-size: x-small;
+    margin-bottom: 27px;
+  }
+  .last #humidity{
+    font-size: large;
+  }
+  .last #speed{
+    font-size: large;
+  }
+}
+@media (min-height:600px) and (min-width:410px){
+  .card{
+    height: 600px;
+    width: 400px;
+  }
+  main{
+    padding: 30px;
+    padding-top: 50px;
+
+  }
+  input{
+    height:40px;
+    width: 80%;
+    border-radius: 3rem;
+    text-align:left;
+    padding-left: 15px;
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    margin: none;
+  }
+  button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+  }
+  .climate{
+    margin-top: 50px;
+  }
+  .climate img{
+    height: 140px;
+  }
+  .temp{
+    margin-top: 40px;
+    font-size: 4rem;
+    font-family: "Varela Round", sans-serif;;
+  }
+  .place{
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+  .last img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  .last{
+    font-size: smaller;
+    margin-bottom: 27px;
+  }
+  .last #humidity{
+    font-size: x-large;
+  }
+  .last #speed{
+    font-size: x-large;
+  }
+
+}
