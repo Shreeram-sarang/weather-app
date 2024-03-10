@@ -22,25 +22,15 @@ body{
 
 }
 main{
-  /* border-radius: .5rem;
-  background: linear-gradient(135deg, hsla(186, 100%, 69%, 1) 9%, hsla(234, 92%, 76%, 1) 100%);
+  background: hsla(185, 64%, 51%, 1);
 
-  background: -moz-linear-gradient(135deg, hsla(186, 100%, 69%, 1) 9%, hsla(234, 92%, 76%, 1) 100%);
-
-  background: -webkit-linear-gradient(135deg, hsla(186, 100%, 69%, 1) 9%, hsla(234, 92%, 76%, 1) 100%);
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#60EFFF", endColorstr="#8995FA", GradientType=1 ); */
-  background: hsla(273, 31%, 33%, 1);
-
-background: linear-gradient(135deg, hsla(273, 31%, 33%, 1) 0%, hsla(16, 11%, 20%, 1) 100%);
-
-background: -moz-linear-gradient(135deg, hsla(273, 31%, 33%, 1) 0%, hsla(16, 11%, 20%, 1) 100%);
-
-background: -webkit-linear-gradient(135deg, hsla(273, 31%, 33%, 1) 0%, hsla(16, 11%, 20%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#573A6E", endColorstr="#38302D", GradientType=1 );
-width: 100%; /* Take up full width of the .card container */
-height: 100%; /* Take up full height of the .card container */
+  background: linear-gradient(90deg, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#30C5D2", endColorstr="#471069", GradientType=1 ); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EF745C", endColorstr="#34073D", GradientType=1 );
 box-sizing: border-box;
 border-radius: .5rem;
 }
@@ -68,6 +58,8 @@ border-radius: .5rem;
   main{
     padding: 10px;
     padding-top: 20px;
+    height: 400px;
+    width: 250px;
 
   }
   input{
@@ -127,6 +119,8 @@ border-radius: .5rem;
   main{
     padding: 30px;
     padding-top: 50px;
+    height: 600px;
+    width: 400px;
 
   }
   input{
@@ -149,13 +143,13 @@ border-radius: .5rem;
     margin-left: 10px;
   }
   .climate{
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .climate img{
     height: 140px;
   }
   .temp{
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 4rem;
     font-family: "Varela Round", sans-serif;;
   }
@@ -177,5 +171,4 @@ border-radius: .5rem;
   .last #speed{
     font-size: x-large;
   }
-
 }
